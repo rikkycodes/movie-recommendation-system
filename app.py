@@ -20,7 +20,7 @@ st.set_page_config(
 
 API_BASE = os.getenv(
     "API_BASE",
-    "http://127.0.0.1:8000",
+    "https://movie-recommendation-system-auh6.onrender.com"
 ).rstrip("/")
 
 ACCENT = "#9d2436"
